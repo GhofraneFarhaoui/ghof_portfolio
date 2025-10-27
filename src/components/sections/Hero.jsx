@@ -6,7 +6,7 @@ const Hero = () => (
     <BacklogItem delay={0} text="Define user stories" top="15%" left="5%" />
     <BacklogItem delay={1.2} text="Prioritize with WSJF" top="70%" left="85%" />
     <BacklogItem delay={2.1} text="Bridge tech & business" top="40%" left="88%" />
-    <BacklogItem delay={0.8} text="Ship value, not features" top="85%" left="12%" />
+    <BacklogItem delay={0.8} text="Ship value, not features" top="80%" left="12%" />
 
     <div className="text-center max-w-3xl relative z-20">
       <motion.h1
@@ -28,7 +28,7 @@ const Hero = () => (
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.7 }}
       >
-        Engineering student turned Product Owner. I turn complex problems into elegant digital experiences — with data, empathy, and clean code.
+        Engineering student turned Product Owner. I turn complex problems into elegant digital experiences,with data, empathy, and clean code.
       </motion.p>
 
       <motion.div

@@ -41,7 +41,7 @@ const Experience = () => (
         ].map((exp, i) => (
           <motion.div
             key={i}
-            className={`mb-20 flex ${i % 2 === 0 ? 'flex-col md:flex-row' : 'flex-col md:flex-row-reverse'} items-center`}
+            className={`mb-2 flex ${i % 2 === 0 ? 'flex-col md:flex-row' : 'flex-col md:flex-row-reverse'} items-center`}
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}

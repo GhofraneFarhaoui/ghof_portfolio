@@ -25,7 +25,7 @@ const Projects = () => (
             title: "Healthcare Staffing MVP",
             role: "Product Strategy & BD",
             desc: "Defined product vision and go-to-market strategy for Canadian healthcare staffing platform.",
-            outcomes: ["Validated $2M+ opportunity", "Reduced time-to-market by 3 months", "Secured 5 pilot clients"]
+            outcomes: ["Validated $1M+ opportunity", "Reduced time-to-market by 3 months", "Secured 3 pilot clients"]
           }
         ].map((proj, i) => (
           <motion.div

@@ -9,14 +9,14 @@ const About = () => (
           initial={{ opacity: 0, x: -40 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.4 }}
         >
           <h2 className="text-4xl font-bold text-gray-900 mb-6">From Code to Strategy</h2>
           <p className="text-lg text-gray-600 mb-5 leading-relaxed">
-            My journey began in the trenches of software engineering — writing React components, debugging NestJS APIs, and obsessing over clean architecture.
+            My journey began in the trenches of software engineering, writing React components, debugging NestJS APIs, and obsessing over clean architecture.
           </p>
           <p className="text-lg text-gray-600 mb-5 leading-relaxed">
-            But I quickly realized my passion wasn’t just building things right — it was building the <span className="font-semibold">right things</span>.
+            But I quickly realized my passion wasn’t just building things right, it was building the <span className="font-semibold">right things</span>.
           </p>
           <p className="text-lg text-gray-600 leading-relaxed">
             Today, I blend technical depth with product intuition to create solutions that users love and businesses grow.

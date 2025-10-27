@@ -33,7 +33,7 @@ const Connect = () => {
         >
           <h2 className="text-4xl font-bold mb-4">Let’s Shape the Future</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Whether you’re building a product, scaling a team, or exploring collaboration — I’d love to hear from you.
+            Whether you’re building a product, scaling a team, or exploring collaboration, I’d love to hear from you.
           </p>
         </motion.div>
 
