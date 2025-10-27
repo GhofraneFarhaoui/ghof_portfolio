@@ -4,9 +4,9 @@ import BacklogItem from '../ui/BacklogItem';
 const Hero = () => (
   <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden px-4">
     <BacklogItem delay={0} text="Define user stories" top="15%" left="5%" />
-    <BacklogItem delay={1.2} text="Prioritize with WSJF" top="70%" left="85%" />
-    <BacklogItem delay={2.1} text="Bridge tech & business" top="40%" left="88%" />
-    <BacklogItem delay={0.8} text="Ship value, not features" top="80%" left="12%" />
+    <BacklogItem delay={1.2} text="Prioritize with WSJF" top="70%" left="75%" />
+    <BacklogItem delay={0} text="Bridge tech & business" top="40%" left="80%" />
+    <BacklogItem delay={0.8} text="Ship value, not features" top="85%" left="8%" />
 
     <div className="text-center max-w-3xl relative z-20">
       <motion.h1
