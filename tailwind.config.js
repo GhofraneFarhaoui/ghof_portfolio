@@ -1,0 +1,1 @@
+/** @type {import('tailwindcss').Config} */ export default { content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'], theme: { extend: { colors: { lavender: { 50: '#f9f7ff', 100: '#ede9fe', 200: '#ddd6fe', 500: '#8b5cf6', 600: '#7c3aed' }, pink: { 50: '#fff7f9', 500: '#ec4899' }, rose: { 500: '#f43f5e' }, beige: { 50: '#fdf9f5' } } } }, plugins: [] }
